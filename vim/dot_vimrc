@@ -1,0 +1,34 @@
+" Following is copied from gentoo ~sgf/.vimrc
+" Though, backspace fix removed.
+
+" Text auto-format
+set textwidth=78	" tw
+set autoindent		" ai
+set formatoptions+=n	" fo
+set formatoptions+=r
+
+" Text editing
+set shiftwidth=4	" sw
+set softtabstop=4	" sts
+
+" Mappings
+map Y y$
+
+" Text displaying
+set linebreak		" lbr
+set showbreak=+		" sbr
+
+" Windows
+set noequalalways	" ea
+
+" Folding
+set foldmethod=marker	" fdm
+
+" Status lines
+set showcmd
+
+
+" Following is added later, in debian
+set formatoptions+=l
+set hlsearch
+syntax on
