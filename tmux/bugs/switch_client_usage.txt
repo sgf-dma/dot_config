@@ -1,0 +1,2 @@
+`switch-client` does not have options '-n' and '-p' in tmux-1.3 . Thus, i need
+to find somehow next and previous client number.
